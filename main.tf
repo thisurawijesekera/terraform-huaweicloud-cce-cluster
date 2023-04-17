@@ -38,7 +38,7 @@ resource "huaweicloud_cce_cluster" "main" {
     }
   }
 
-  eip             = var.cce_public ? module.eip_bastion_host.address : null
+  eip             = var.cce_public ? module.eip_cce_cluster.address : null
   kube_proxy_mode = var.kube_proxy_mode
   extend_param    = var.extend_param
 
@@ -55,7 +55,7 @@ resource "huaweicloud_cce_cluster" "main" {
   tags = var.tags
 }
 
-module "eip_bastion_host" {
+module "eip_cce_cluster" {
   source  = "cloud-labs-infra/eip/huaweicloud"
   version = "1.0.0"
 

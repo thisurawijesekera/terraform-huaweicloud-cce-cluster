@@ -4,12 +4,12 @@ provider "huaweicloud" {
 
 module "vpc" {
   source  = "cloud-labs-infra/vpc/huaweicloud"
-  version = "1.0.0"
+  version = "1.0.1"
 
   name = "dev01"
 }
 
-module "secgroup_rocketmq" {
+module "cce_cluster" {
   source  = "cloud-labs-infra/cce-cluster/huaweicloud"
   version = "1.0.0"
 

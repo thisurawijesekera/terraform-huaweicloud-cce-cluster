@@ -18,7 +18,7 @@
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_eip_bastion_host"></a> [eip\_bastion\_host](#module\_eip\_bastion\_host) | cloud-labs-infra/eip/huaweicloud | 1.0.0 |
+| <a name="module_eip_cce_cluster"></a> [eip\_cce\_cluster](#module\_eip\_cce\_cluster) | cloud-labs-infra/eip/huaweicloud | 1.0.0 |
 
 ## Resources
 

@@ -3,7 +3,7 @@ data "huaweicloud_availability_zones" "zones" {
 }
 
 locals {
-  name = var.name_postfix == null ? format("%s-cce", var.name) : format("%s-cce-%s", var.name, var.name_postfix)
+  name = var.name_postfix == null ? format("%s-cluster", var.name) : format("%s-cluster-%s", var.name, var.name_postfix)
 }
 
 resource "huaweicloud_cce_cluster" "main" {

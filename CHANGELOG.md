@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.2](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster/compare/v1.0.1...v1.0.2) (2023-04-17)
+
+
+### Bug Fixes
+
+* Change naming convention for CCE Cluster ([#3](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster/issues/3)) ([53512d5](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster/commit/53512d5d77a959adecefbb6e5a9fa5aa3b03daa1))
+
 ### [1.0.1](https://github.com/cloud-labs-infra/terraform-huaweicloud-cce-cluster/compare/v1.0.0...v1.0.1) (2023-04-17)
 
 

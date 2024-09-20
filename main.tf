@@ -38,7 +38,7 @@ resource "huaweicloud_cce_cluster" "main" {
     }
   }
 
-  eip             = var.cce_public ? module.eip_cce_cluster.address : null
+  eip             = var.cce_public ? module.eip_cce_cluster[0].address : null
   kube_proxy_mode = var.kube_proxy_mode
   extend_param    = var.extend_param
 
